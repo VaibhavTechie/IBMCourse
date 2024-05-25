@@ -1,7 +1,20 @@
 import numpy as np
-# Create a list
+import matplotlib.pyplot as plt
+class Rectangle(object): 
 
-a = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
-a
-A = np.array(a)
-A
+    def __init__(self,width=2,height =3,color='r'):
+
+        self.height=height 
+
+        self.width=width 
+
+        self.color=color 
+
+    def drawRectangle(self): 
+
+        import matplotlib.pyplot as plt 
+
+        plt.gca().add_patch(plt.Rectangle((0, 0),self.width, self.height ,fc=self.color)) 
+
+        plt.axis('scaled') 
+        plt.show()
