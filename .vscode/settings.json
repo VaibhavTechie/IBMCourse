@@ -9,9 +9,9 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "MyIBMSQL",
-            "database": "mysql",
-            "username": "root"
+            "name": "MYSQL",
+            "database": "CVD",
+            "username": "vaibhav"
         }
     ]
 }
